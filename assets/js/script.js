@@ -5,6 +5,14 @@ var cityForm = document.querySelector("#city-form");
 var cityList = document.querySelector("#city-list");
 var today = moment();
 
+// TODO: CONFIRM DATE ACCROSS DATE LINE (AUCKLAND)
+// TODO: ADD fun wind direction arrow
+// TODO: Affix delete single city button to far right
+// TODO: Add visual linear breaks in the cards
+// TODO: Change color pallete to maximize icon contrast
+// TODO: hide APIkey with .env
+
+
 // when the user submits a city it shows the current weather and five day forecast
 // and also saves the city local storage
 function saveCity(event) {
